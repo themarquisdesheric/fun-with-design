@@ -1,8 +1,40 @@
-body {
-  font-size: 1.2em;
-  margin: 0;
+body { margin: 0; }
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
 }
 
-.barcode { font-family: 'Libre Barcode 39 Extended', cursive; }
+section {
+  border: .5em solid #000;
+  padding: .5em 1em;
+}
 
-.text { font-family: 'Francois One', sans-serif; }
+.barcode { 
+  font-family: 'Libre Barcode 39 Extended', cursive;
+  font-size: 2.5em;
+}
+
+
+.text { 
+  font-family: 'Francois One', sans-serif;
+  font-size: 2.6em; 
+}
+
+.text:nth-child(2) { 
+  position: relative; 
+  right: 5px;
+}
+
+.text:nth-child(8) { 
+  position: relative; 
+  left: 6px;
+}
+
+.text:nth-child(11) { 
+  position: relative; 
+  left: 4px;
+}
