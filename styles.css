@@ -1,0 +1,8 @@
+body {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.barcode { font-family: 'Libre Barcode 39 Extended', cursive; }
+
+.text { font-family: 'Francois One', sans-serif; }
